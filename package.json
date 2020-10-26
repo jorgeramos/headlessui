@@ -39,5 +39,11 @@
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "snapshot-diff": "^0.8.1"
-  }
+  },
+  "description": "<h3 align=\"center\">   @headlessui/react </h3>",
+  "bugs": {
+    "url": "https://github.com/jorgeramos/headlessui/issues"
+  },
+  "homepage": "https://github.com/jorgeramos/headlessui#readme",
+  "author": ""
 }
