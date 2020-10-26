@@ -1,0 +1,43 @@
+{
+  "name": "@jorgeramos/headlessui",
+  "version": "0.2.1",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "module": "dist/headlessui.esm.js",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jorgeramos/headlessui.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "playground": "next dev",
+    "playground:build": "next build",
+    "prepublishOnly": "npm run build",
+    "test": "../../scripts/test.sh",
+    "build": "../../scripts/build.sh",
+    "lint": "../../scripts/lint.sh"
+  },
+  "peerDependencies": {
+    "react": ">=16"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.53",
+    "@types/react-dom": "^16.9.8",
+    "@popperjs/core": "^2.5.3",
+    "@testing-library/react": "^11.1.0",
+    "framer-motion": "^2.9.3",
+    "next": "9.5.5",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "snapshot-diff": "^0.8.1"
+  }
+}
